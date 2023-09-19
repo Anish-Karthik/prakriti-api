@@ -1,4 +1,4 @@
-from flask import Flask,request, render_template, jsonify
+from flask import Flask,request, jsonify
 import numpy as np
 import joblib
 
@@ -6,14 +6,14 @@ app = Flask(__name__)
 
 
 ## Load the model
-regmodel=joblib.load('prakriti-classifier.joblib')
+clfmodel=joblib.load('prakriti-classifier.joblib')
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
     data=request.json['data']
     print(data)
     data = np.array([list(data)])
     print(data)
-    output=regmodel.predict(data)
+    output=clfmodel.predict(data)
     print(output[0])
     return jsonify(output[0])
 
