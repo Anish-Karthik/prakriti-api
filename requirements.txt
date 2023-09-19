@@ -1,5 +1,4 @@
 Flask
-gunicorn
 numpyaiobotocore @ file:///C:/b/abs_74o47svlua/croot/aiobotocore_1680004300264/work
 aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
 aiohttp @ file:///C:/ci_311/aiohttp_1676432932774/work
@@ -94,8 +93,7 @@ fsspec @ file:///C:/b/abs_07xig1rkra/croot/fsspec_1679418812895/work
 future @ file:///C:/ci_311_rebuilds/future_1678998246262/work
 gensim @ file:///C:/ci_311/gensim_1677743037820/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
-greenlet @ file:///C:/ci_311/greenlet_1676436788118/work
-gunicorn==21.2.0
+greenlet @ file:///C:/ci_311/greenlet_1676436788118/work==21.2.0
 h5py @ file:///C:/ci_311/h5py_1676504676103/work
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
 holoviews @ file:///C:/b/abs_13gytsh91v/croot/holoviews_1690480023447/work
